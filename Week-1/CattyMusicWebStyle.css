@@ -1,0 +1,139 @@
+:root{
+    --navbar: 50px;
+}
+
+body{
+    margin: 0px;;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--navbar);
+    background-color: #D9D6D5;
+    border-right: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.sidebar .icon{
+
+    padding: 20px;
+    font-size: 15px; 
+    color: black;
+}
+
+.sidebar a{
+       text-decoration: none;
+       display: block;
+      
+}
+   .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+   .music-head {
+    display: flex;
+    padding: 15px 30px 15px 30px;
+    background-color: #4e4e4e;
+  }
+
+  .music-head img{
+      height: 194px;
+      width: 194px;
+      padding: 0px 40px
+  }
+  .catty-music {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    color: #fff;
+    padding: 10px 30px 30px 30px;
+  }
+  .catty-music div:nth-child(1) {
+    margin-bottom: auto;
+  }
+  
+  .catty-music div:nth-child(2) {
+    margin-top: 0;
+  }
+  
+  .catty-music div:nth-child(2) i {
+    font-size: 15px;
+    padding: 0 12px;
+    font-weight: 300;
+  }
+  .catty-music div:nth-child(1) p:first-child {
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  
+  .catty-music div:nth-child(1) p:not(:first-child) {
+    font-size: 15px;
+    margin: 2px 0;
+  }
+ 
+  .musictable{
+      margin-left: 11px;
+  }
+
+ table {
+    margin: var(--navbar);
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 95%;
+    }
+   
+    td, th {
+    text-align: left;
+    padding: 10px 2px;
+    }
+   
+    tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+    
+    span.catty-cloud {
+      border: 1px solid black;
+      font-size: 0.6em;
+      padding: 3px;
+    }
+    
+.footer {
+	display: flex;
+	flex: 0 0 80px; 
+	padding: 6px;
+	color: #fff;
+	background-color: rgba(61, 100, 158, 0.9);
+}
+
+.catty-music-small {
+	display: flex;
+	margin-right: auto;
+}
+
+.catty-music-small img{
+    margin-left: 60px;
+    margin-top: 5px;
+	padding: 5px 5px 7px 0px;
+}
+
+.catty-music-small div{
+    font-size: 8px;
+    padding: 9px 5px 9px 5px;
+}
+
+.musicicons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	width: 70%;
+    padding: 0px 30px;
+}
